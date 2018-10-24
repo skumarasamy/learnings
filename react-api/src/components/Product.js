@@ -36,7 +36,7 @@ class Product extends Component {
                 <div className="list-group-item">
                     <div className="row">
                         <div className="col-3 col-sm-3 col-md-3">
-                            <img src={product.image} alt="product" className="img-fluid" />
+                            <img src={product.image} alt="product display" className="img-fluid" />
                         </div>
                         <div className="col-9 col-sm-9 col-md-9">
                             <h5>{product.name}</h5>
